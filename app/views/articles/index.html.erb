@@ -1,7 +1,6 @@
 <%= render partial: "custom_components/navbar" %>
 
 <h1>Cool Heading</h1>
-
 <ul>
     <% @articles.each do |article| %>
         <li>
@@ -9,3 +8,8 @@
         </li>
     <% end %>
 </ul>
+
+<p class="uk-margin uk-position-center">
+    <button class="uk-button uk-button-primary">Start Server</button>
+    <button class="uk-button uk-button-secondary">Stop Server</button>
+</p>
