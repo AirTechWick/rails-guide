@@ -1,15 +1,4 @@
-<%= render partial: "custom_components/navbar" %>
+<%= render partial: "custom_components/navbar"%>
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
 
-<h1>Cool Heading</h1>
-<ul>
-    <% @articles.each do |article| %>
-        <li>
-            <%= article.title %>
-        </li>
-    <% end %>
-</ul>
-
-<p class="uk-margin uk-position-center">
-    <button class="uk-button uk-button-primary">Start Server</button>
-    <button class="uk-button uk-button-secondary">Stop Server</button>
-</p>

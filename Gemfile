@@ -72,3 +72,4 @@ group :test do
 end
 
 gem 'motor-admin'
+gem "tailwindcss-rails", "~> 2.0"
